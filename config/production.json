@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://nizar:webahead7@webahead7.74kvx.mongodb.net/warda?retryWrites=true&w=majority",
+  "jwtSecret": "wardayawarda"
+}
