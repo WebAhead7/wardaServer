@@ -1,0 +1,14 @@
+_id: env_c467c11742034f22b8aac245b54b800b
+type: Environment
+parentId: env_64821f02d18de98991f02f2627beb85dcbb662a2
+modified: 1607347172460
+created: 1607346923599
+name: New Environment
+data:
+  base_url: http://localhost:5000/api
+dataPropertyOrder:
+  "&":
+    - base_url
+color: "#55d831"
+isPrivate: false
+metaSortKey: 1607346923599

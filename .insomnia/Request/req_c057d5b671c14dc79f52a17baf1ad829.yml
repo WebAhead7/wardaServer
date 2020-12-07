@@ -1,0 +1,25 @@
+_id: req_c057d5b671c14dc79f52a17baf1ad829
+type: Request
+parentId: fld_40b219561c2b451a88dbc8e54b1652fc
+modified: 1607347225250
+created: 1606825877339
+url: "{{ _.base_url }}/users"
+name: Get all users posts
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - name: x-auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWZjNjJjYjdlNTRkNDM3NTE2YTdkYzY5In0sImlhdCI6MTYwNjgyNDk2MCwiZXhwIjoxNjA3MTg0OTYwfQ.JpgueNboVFEmqsGMhakq8Uk6LO3ainZKVfsFKaQy4oY
+    description: ""
+    id: pair_ed0944b140074af7a4a58d699956ec1b
+authentication: {}
+metaSortKey: -1606825877430
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
