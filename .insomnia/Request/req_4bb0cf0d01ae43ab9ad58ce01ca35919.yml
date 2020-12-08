@@ -1,0 +1,34 @@
+_id: req_4bb0cf0d01ae43ab9ad58ce01ca35919
+type: Request
+parentId: fld_40b219561c2b451a88dbc8e54b1652fc
+modified: 1607347241362
+created: 1606827085532
+url: "{{ _.base_url }}/posts/5fc63f3089ccbac8384f79c1"
+name: Update post
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "updated post",
+    	"content" : " hey aaaalll"
+    }
+parameters: []
+headers:
+  - name: x-auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWZjNjJjYjdlNTRkNDM3NTE2YTdkYzY5In0sImlhdCI6MTYwNjgyNDk2MCwiZXhwIjoxNjA3MTg0OTYwfQ.JpgueNboVFEmqsGMhakq8Uk6LO3ainZKVfsFKaQy4oY
+    description: ""
+    id: pair_30a9471a9ba044e7982e25d1e3b93f7e
+  - name: Content-Type
+    value: application/json
+    id: pair_5962c4a07271420a82e08829d3c5f2be
+authentication: {}
+metaSortKey: -1606827085532
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

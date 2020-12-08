@@ -1,0 +1,30 @@
+_id: req_40048028c9164f85952f2bb70d2ca563
+type: Request
+parentId: fld_4828bf4d078748ceb4fd9b4683a3b871
+modified: 1607347207118
+created: 1606823712254
+url: "{{ _.base_url }}/auth"
+name: Get logged in user
+description: ""
+method: GET
+body:
+  mimeType: application/json
+  text: ""
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_d28509f8c5834709af902a3dbfab349c
+  - name: x-auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWZjNjJjYjdlNTRkNDM3NTE2YTdkYzY5In0sImlhdCI6MTYwNjgyMzA5NiwiZXhwIjoxNjA3MTgzMDk2fQ.ASDiGZTYcZNXIlWaG2I3FmoCcovw4FLA-e_JcYW2aWc
+    description: ""
+    id: pair_562269cdeddd4121ab0c9d8f5954147e
+authentication: {}
+metaSortKey: -1606823712254
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

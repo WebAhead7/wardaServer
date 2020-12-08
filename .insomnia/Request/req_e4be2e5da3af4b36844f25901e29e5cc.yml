@@ -1,0 +1,34 @@
+_id: req_e4be2e5da3af4b36844f25901e29e5cc
+type: Request
+parentId: fld_40b219561c2b451a88dbc8e54b1652fc
+modified: 1607347233776
+created: 1606825948459
+url: "{{ _.base_url }}/posts"
+name: Add post to users
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title" : "zz",
+    	"content" : " hey all"
+    }
+parameters: []
+headers:
+  - name: x-auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWZjNjJjYjdlNTRkNDM3NTE2YTdkYzY5In0sImlhdCI6MTYwNjgyNzI0NiwiZXhwIjoxNjA3MTg3MjQ2fQ.Qx7VU9pE4LLGFU4IbxZ_56Gof-I6tsCXmh6ejr7MAqo
+    description: ""
+    id: pair_2e2a6d567f1048fc9cc55328ed0e6fed
+  - name: Content-Type
+    value: application/json
+    id: pair_781affb3bd3546a9af074fc09444adac
+authentication: {}
+metaSortKey: -1606825948459
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

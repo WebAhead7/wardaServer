@@ -1,0 +1,25 @@
+_id: req_f739fe28b93b404d98efb5aad93277eb
+type: Request
+parentId: fld_40b219561c2b451a88dbc8e54b1652fc
+modified: 1607347247673
+created: 1606827775127
+url: "{{ _.base_url }}/posts/5fc63dc74d095bc32cf5f7dc"
+name: Delete post
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - name: x-auth-token
+    value: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyIjp7ImlkIjoiNWZjNjJjYjdlNTRkNDM3NTE2YTdkYzY5In0sImlhdCI6MTYwNjgyNDk2MCwiZXhwIjoxNjA3MTg0OTYwfQ.JpgueNboVFEmqsGMhakq8Uk6LO3ainZKVfsFKaQy4oY
+    description: ""
+    id: pair_feac321d577048dc9f0cac99d5e98f7a
+authentication: {}
+metaSortKey: -1606827775127
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

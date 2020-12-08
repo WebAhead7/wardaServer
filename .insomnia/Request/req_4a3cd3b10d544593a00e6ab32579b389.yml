@@ -1,0 +1,33 @@
+_id: req_4a3cd3b10d544593a00e6ab32579b389
+type: Request
+parentId: fld_4828bf4d078748ceb4fd9b4683a3b871
+modified: 1607349148528
+created: 1606819370113
+url: "{{ _.base_url }}/users"
+name: Register user
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"name": "nizar",
+    	"email" : "nshalloun445@hotmail.com",
+    	"password" : "hefffff",
+    	"gender" : "male"
+
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_4f00ac45249c4349996255d98f46023d
+authentication: {}
+metaSortKey: -1606819370113
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
